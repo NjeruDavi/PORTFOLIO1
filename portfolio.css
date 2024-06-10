@@ -120,6 +120,9 @@ nav #home{
 .About-me:hover{
     transform: translateY(-10px);
 }
+.About-me:hover #about{
+    background-color: orange;
+}
 h3{
     font-family:sans-serif;
     font-weight: bolder;
@@ -244,7 +247,7 @@ h3{
     flex-wrap: wrap;
     align-items: center;
     margin: 30px;
-    width: 350px;
+    width: 250px;
     padding: 20px;
     transition: transform ease-in 0.5s;
     
@@ -260,14 +263,16 @@ h3{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    width: 350px;
+    width: 250px;
     padding: 20px;
     transition: all ease-in-out 0.5s;
-
-    
+    height:auto;
 }
 .robotics:hover{
     transform: scale(1.03);
+}
+main h3{
+    text-decoration: dotted;
 }
 .content{
     text-align: center;
