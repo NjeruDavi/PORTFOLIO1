@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    margin-top: 0%;
+    background-color:rgb(12, 39, 54);
+ }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+fieldset {
+   border: 2px solid black;
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin: 80px;
+    padding:50px;
+    box-shadow: 5px 5px 4px black;
+    background-color: wheat;
+    
+}
+legend{
+    color:black;
+    font-weight: bolder;
+}
+label{
+    color:black;
+    font-weight: bold;
+    
+    
+}
+input{
+    border-radius: 5px;
+    border-color: bisque;
+    color: rgb(15, 12, 12);
+    
+}
+textarea{
+    width:90%;
+
+}
+#Email,#phone-number,#Name{
+    width: 250px;
+    height: 25px;
+}
+.buttons{
+    display:inline-block;
+   
+   
+}
+.buttons input{
+    background-color:black;
+    color:azure;
+}
+.buttons input:hover{
+    font-size: larger;
+    background-color: beige;
+    color: blue;
+}
+[data-phone]{
+    position: relative;
+}
+[data-phone]:hover::after{
+    content: attr(data-phone);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left:0;
+    background-color: burlywood;
+
+
+}
